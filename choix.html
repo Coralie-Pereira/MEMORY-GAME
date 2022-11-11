@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projet_css</title>
+    <link href="choix.css" rel="stylesheet">
+</head>
+<body>
+    
+<!-- GRANDE DIV CONTENANT THEME + NIVEAUX -->
+<div id="container" class="container_theme">
+        <br>
+        <!--CONTIENT BOUTTON THEME + LISTE THEME -->
+    <div class="contenaire_tt_theme"> <!--div qui contient -->
+         <div class="button_theme"> <!-- moyenne case boutton theme + liste des themes-->
+            <p id="themes">Themes</p>
+     </div>
+<!-- boutton ou ya les themes -->
+    <select class="grand_theme"   name="theme" id="theme">
+        <div class="choix_theme">
+            <option value="Mario">Mario</option>
+            <option value="Pokemon">Pokemon</option>
+            <option value="Drapeau">Drapeau</option>
+        </div>
+    </select>
+</div><!--balise qui referme la moyenne div qui contient les deux cases themes-->
+
+<!-- DIV OU YA LE NIVEAU DE DIFFICULTER -->
+<div class="contenaire_tt_difficulter">
+<div id="container2" class="container_difficulter">
+    <div class="button_difficulter"> <!-- contient la moyenne case ou il y a le boutton difficulter et la liste des difficulter-->
+         <p id="Difficulter">Difficultée</p>
+    </div>
+
+<select class="grand_difficulter" class="choix_difficulter"  name="difficulter" id="difficulter">
+    <option  onclick="facile.php.href = 'facile.php';" value="Mario">Facile</option>
+    <option  onclick="intermediaire.php.href = 'intermediaire.php';" value="Pokemon">Intermediaire</option>
+    <option  onclick="Expert.php.href = 'Expert.php';"  value="Drapeau">Expert</option>
+    <option  onclick="impossible.php.href = 'impossible.php';"  value="Drapeau">impossible</option>
+</select>
+    </div> <!--ferme 2eme case boutton difficulter + liste-->
+</div>
+
+</div> <!--FERME LA GRANDE DIV CONTENANT TOUT -->
+
+
+
+<div class="lancer_la_partie">  
+    <button onclick="game.php.href = 'impossible.php';" class="lancer_la_partie" type="submit">Lancer la partie</button>
+</div>  
+
+
+
+
+
+</body>
+</html>
+<script src="choix.js"></script>

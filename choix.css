@@ -1,0 +1,54 @@
+button  {
+    width: 33%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.grand_theme{
+    width: 10%;
+    height: 40px;
+}
+
+.grand_difficulter{
+    width: 10%;
+    height: 40px;
+}
+
+.container_theme{
+    display: flex;
+    justify-content: center;
+}
+
+.contenaire_tt_theme{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenaire_tt_difficulter{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+#theme, #difficulter{
+    width: 30%;
+    height: 45px;
+}
+
+.button_difficulter, .button_theme{
+    height: 50px;
+}
+
+.lancer_la_partie{
+    display: flex;
+    justify-content: center;
+}
